@@ -22,8 +22,9 @@ jobs:
       with:
         docs-folder: "./"
 
-    - name: Checkout 🛎️
-      uses: actions/checkout@v2.3.1
+# Documentation of github-pages-deploy-action says this is needed but does not work
+#     - name: Checkout 🛎️
+#       uses: actions/checkout@v2.3.1
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.1
